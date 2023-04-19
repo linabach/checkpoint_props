@@ -18,6 +18,8 @@ function Profile(props) {
     </div>
   )
 }
+/*specify the expected types of props*/
 Profile.propTypes={age:PropTypes.number}
+/*default prop value will be used instead*/
 Profile.defaultProps={name:"lina"}
 export default Profile
